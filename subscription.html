@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plans</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #fcfcfc;
+            color: #fff;
+           
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            margin: 0;
+        }
+        .head{
+            
+            height: 100px;
+            background-color: black;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .pricing-container {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+            background-color: black;
+            height: 500px;
+        }
+        
+        .pricing-card {
+            background-color: #222;
+            border-radius: 10px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            height: 400px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .pricing-card.premium {
+            border: 2px solid #e74c3c;
+        }
+
+        .pricing-card h2 {
+            color: #e74c3c;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        .pricing-card.elite h2 {
+            color: #e74c3c;
+        }
+
+        .pricing-card.basic h2 {
+            color: #e74c3c;
+        }
+
+        .price {
+            font-size: 2.5rem;
+            margin: 20px 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+            text-align: left;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+
+        .btn-register {
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-register:hover {
+            background-color: white;
+            color: #e67e22;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <h1>Choose the Perfet <br> Membership Package for you</h1>
+        </div>
+    <div class="pricing-container">
+        <div class="pricing-card basic">
+            <h2>Basic</h2>
+            <p class="price">$30</p>
+            <p>1 Month Package</p>
+            <ul>
+                <li>✅Access to Gym Facilities</li>
+                <li>✅Unlimited Gym Access</li>
+                <li>✅Free Group Fitness Classes</li>
+                <li>✅Locker Room Access</li>
+            </ul>
+            <button class="btn-register">Register Now</button>
+        </div>
+        
+        <div class="pricing-card premium">
+            <h2>Premium</h2>
+            <p class="price">$50</p>
+            <p>1 Month Package</p>
+            <ul >
+                <li>✅ All Basic Package Benefits</li>
+                <li>✅Personalized Training Plan</li>
+                <li>✅Monthly Fitness Assessment</li>
+                <li>✅Access to Advanced Equipment</li>
+                <li>✅Priority Customer Support</li>
+            </ul>
+            <button class="btn-register">Register Now</button>
+        </div>
+        
+        <div class="pricing-card elite">
+            <h2>Elite</h2>
+            <p class="price">$80</p>
+            <p>1 Month Package</p>
+            <ul>
+                <li>✅All Premium Package Benefits</li>
+                <li>✅Nutrition Consultation</li>
+                <li>✅Access to VIP Lounge</li>
+                <li>✅Daily Health Check-up</li>
+            </ul>
+            <button class="btn-register">Register Now</button>
+        </div>
+    </div>
+</body>
+</html>
